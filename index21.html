@@ -18,8 +18,8 @@ const devCuadrado=(arre=undefined)=>{
     if(!(arre instanceof Array)) return console.error(`El valor ingresado "${arre}", no es un arreglo`);
 
     if (arre.length===0) return console.error(`El arreglo ingresado  esta vacio`);
+       
         for(let num of arre){
-
             if (typeof num!=="number") return console.error(`El valor ingresado "${num}", NO es un numero`);
 
         }
